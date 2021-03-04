@@ -47,6 +47,11 @@ func _physics_process(_delta):
 
 	var bodies = get_colliding_bodies()
 	for body in bodies:
+		if HUD.ball_trail:
+			var c = $Color.duplicate()
+			c.rect_global_position = global_position
+			c.color = c.color.darkened(0.4)
+			get_node("/roote/Game/Trail_Container").add_child(c)
 		if body.name == "Walls":
 			if HUD.screen_shake_walls > 0:
 				camera.add_trauma(wall_trauma*HUD.screen_shake_walls)
