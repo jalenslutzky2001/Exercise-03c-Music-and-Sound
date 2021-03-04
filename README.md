@@ -131,7 +131,7 @@ Now edit the README.md file. When you have finished editing, commit your changes
 The final state of the file should be as follows (replacing the "Created by" information with your name):
 ```
 # Exercise-03c-Music-and-Sound
-Exercise for MSCH-C220, 1 March 2021
+Exercise for MSCH-C220, 3 March 2021
 
 The third part in a series exploring the "Juice it or Lose it" GDC 2012 presentation in Godot.
 
@@ -149,5 +149,5 @@ Music and sound effects created by the author
 None
 
 ## Created by 
-Jason Francis
+Jalen Slutzky
 ```
